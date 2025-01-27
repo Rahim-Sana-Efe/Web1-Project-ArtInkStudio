@@ -1,0 +1,100 @@
+.flex-container{
+    display: flex;
+    flex-flow:row wrap;
+    background-color: palevioletred;
+    align-items:flex-start ;
+    height: 500px
+}
+h1{text-align: center;
+    color: pink;
+
+}
+
+.flex-container> div{
+background-color:skyblue;
+color: rgb(0, 0, 0);
+width: 100px;
+height: 100px;
+margin: 70px; /* Adds space between the boxes */
+text-align: center;
+font-size: 30px;
+color: rgb(255, 43, 110);
+ }
+#div1 {
+    background-color: rgb(229, 156, 195);
+    align-self: flex-end;
+}
+#div2{
+    background-color: rgb(243, 146, 162);
+
+}
+#div3{
+    background-color:rgb(255, 71, 172); 
+    align-self: flex-end;
+} 
+#div4{
+    background-color: rgb(245, 157, 203);
+}
+#div5{
+    background-color: pink;
+    align-self: flex-end;
+}
+
+.FlexBox-countainer3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 166, 249);
+    border: solid 10x black;
+    height: 500px;
+
+}
+
+
+
+
+#left-div1 {
+    height: 300px; 
+    width: 300px;
+    border: solid 5px rgb(255, 137, 188);
+
+}
+
+#right-div2 {
+    height: 300px; 
+    width: 300px;
+    border: solid 5px #ff89bc;
+    background-image: url(OIP\ \(5\).jpg);
+    background-size: 300px 300px;/*this is width and hight of image inside right-div2*/ 
+}
+
+#img1{
+
+    height: 100%;
+    width: 100%;
+}
+
+#img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#para1{
+    font-size: 20px;
+    color: white; 
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#video1 {
+    width: 100%; /* Adjust width as needed */
+    height: 400px; /* Set the height you want */
+    border: none; /* Removes iframe border */
+}
+
+
+
+
