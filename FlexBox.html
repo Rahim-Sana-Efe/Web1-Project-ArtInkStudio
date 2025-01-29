@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cute Cats Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #ffcfe3;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            padding: 20px 0;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px; /* Add space between images */
+            padding: 20px;
+        }
+
+        .flex-container div {
+            display: flex;
+            flex-direction: row; /* Arrange images side by side */
+            gap: 20px;
+            align-items: center;
+        }
+
+        .flex-container div:nth-child(even) {
+            flex-direction: row-reverse; /* Alternate order for up and down */
+        }
+
+        .flex-container img {
+            width: 150px; /* Set fixed size for all images */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Add rounded corners */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better appearance */
+        }
+
+        .main-section {
+            padding: 20px;
+            background-color: #ffffff;
+            margin: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .media-section {
+            display: flex;
+            justify-content: space-around;
+            gap: 20px;
+            padding: 20px;
+            background-color: #ffcfe3;
+            flex-wrap: wrap;
+        }
+
+        .media-section > div {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        iframe {
+            width: 100%;
+            height: 150px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cute Cats Gallery</h1>
+
+    <!-- Pictures Section -->
+    <div class="flex-container">
+        <div>
+            <img src="New born kittens.jpg" alt="Kittens">
+            <p>Cute Car</p>
+        </div>
+        <div>
+            <img src="OIP (5).jpg" alt="Cute Cat">
+            <p>Cute Cat</p>
+        </div>
+        <div>
+            <img src="kitten-000017380158_Smaller.jpg" alt="Kitten">
+            <p>Adorable Kitten</p>
+        </div>
+        <div>
+            <img src="HO1A1207.webp" alt="Kitty">
+            <p>Beautiful Kitty</p>
+        </div>
+    </div>
+
+    <!-- Text About Cats and Selling Them -->
+    <div class="main-section">
+        <h2>About Our Cats</h2>
+        <p>
+            Cats make wonderful companions and bring joy to every household. At our store, 
+            we specialize in raising healthy, playful, and adorable cats that are ready to 
+            find their forever homes. Whether you're looking for a calm lap cat or a lively 
+            playful kitten, we have the perfect furry friend for you!
+        </p>
+        <h3>Why Choose Us?</h3>
+        <p>
+            We pride ourselves on ethical breeding practices, ensuring every cat gets 
+            the care and attention it deserves. All our cats are vaccinated, well-socialized, 
+            and trained to make the transition to their new homes easy.
+        </p>
+        <h3>Contact Us Today!</h3>
+        <p>
+            Ready to welcome a new feline friend into your life? Contact us to learn more 
+            about available cats or to schedule a visit.
+        </p>
+    </div>
+
+    <!-- Media Section -->
+    <div class="media-section">
+        <div>
+            <iframe src="https://www.youtube.com/embed/dzFKG6rkWpU?si=0cQczAB9k0lIej8h" allowfullscreen></iframe>
+            <p>Video 1: Cat Fun</p>
+        </div>
+        <div>
+            <iframe src="https://www.youtube.com/embed/fOd16PT1S7A?si=CHL_w57tZlO8SNg5" allowfullscreen></iframe>
+            <p>Video 2: Cute Kitten</p>
+        </div>
+    </div>
+</body>
+</html>
+
