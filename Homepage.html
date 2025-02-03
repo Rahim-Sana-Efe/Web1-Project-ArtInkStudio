@@ -1,52 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Homepage.css">
-    <title>ArtInk Studios | Homepage</title>
-</head>
-
-    <body>
-        <h1>Flexible Boxes</h1>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Homepage.css">  <!-- CSS For Homepage -->
+        <link rel="stylesheet" href="Buttons-Styles.css"> <!-- CSS For Buttons -->
+        <title>ArtInk Studios | Homepage</title>
+    </head>
     
+<body>
+    <h1>ArtInk Studios</h1>
     <div class="flex-container">
         <div id="div1">
-            <img id="banner"
-            src="pictures/Art Ink Studios - Banner.png" 
-            alt="Banner">
+            <img id="banner" src="pictures/Art Ink Studios - Banner.png" alt="Banner">
+        </div>
+    </div>
+
+    <div class="outer-flex-container">
+        <div id="top-div">
+            <h1>Slideshow</h1>
+            
+            <div>
+                <a href="Product.Page-1.html">
+                    <button id="btn">SHOP NOW</button>
+                  </a>
+            </div>
+              
         </div>
 
-    </div>
+        <div class="inner-flex-container">
+            <div id="left-div1">
+                <video width="500" height="400" controls poster="https://img.youtube.com/vi/B7qRzcM_0DQ/maxresdefault.jpg">
+                    <source src="pictures/freedom..mp4" type="video/mp4">
+                </video>
+            </div>
 
-<div class="outer-flex-container">
-
-    <div id="top-div">
-        <p>
-           <h1>Slideshow</h1>
-        </p>
-    </div>
-
-
-
-    <div class="inner-flex-container">
-        
-        <div id="left-div1"><video width="500" height="400" controls poster="https://img.youtube.com/vi/B7qRzcM_0DQ/maxresdefault.jpg">
-            <source src="pictures/freedom..mp4" type="video/mp4">
-        </video>
-         </div>
-        
-         <div id="right-div2">
-            <video width="500" height="400" controls poster="https://img.youtube.com/vi/IfuQpMNtmJ0/maxresdefault.jpg">
-            <source src="pictures/BMW%20S1000RR%20“CHILL”%20NIGHT%20RIDE%20PUSHING%20LIMITS%20(PURE%20SOUND).mp4" type="video/mp4">
-            </video>
+            <div id="right-div2">
+                <video width="500" height="400" controls poster="https://img.youtube.com/vi/IfuQpMNtmJ0/maxresdefault.jpg">
+                    <source src="pictures/BMW%20S1000RR%20“CHILL”%20NIGHT%20RIDE%20PUSHING%20LIMITS%20(PURE%20SOUND).mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
-
     </div>
-
-    </div>
-
-    </body>
-
+</body>
 </html>
