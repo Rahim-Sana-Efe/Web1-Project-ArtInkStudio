@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="SanaGrid.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <h1>Lovely flowers </h1>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+           padding: 20px;
+            background-color: #ffc4c4;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+            grid-template-rows: repeat(10, 1fr); /* 10 rows */
+            gap: 10px;
+            width: 90%;
+            height: 90vh;
+            margin: auto;
+        }
+
+        
+
+        .grid-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+            border: 2px solid black;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="grid-container">
+        <div class="grid-item item-1"></div>
+        <div class="grid-item item-2"></div>
+        <div class="item-3">
+            <video autoplay loop muted playsinline>
+              <source src="pinterestdownloader.com-1741788503.971349.mp4" type="video/mp4">  
+            </video>
+        </div>
+        <div class="grid-item item-4"></div>
+        <div class="grid-item item-5"></div>
+        <div class="grid-item item-6"></div>
+        <div class="grid-item item-7"></div>
+        <div class="grid-item item-8"></div>
+        <div class="grid-item item-9"></div>
+        <div class="grid-item item-10"></div>
+    </div>
+
+</body>
+</html>
