@@ -1,7 +1,15 @@
 @font-face {
     font-family: Horizon;
-    src: url(fonts\horizon.otf);
+    src: url('/fonts/horizon.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
 }
+
+
+body {
+  font-family: 'Horizon', sans-serif;
+}
+
 
 body {
     background: linear-gradient(90deg, #004aad, #cb6ce6);
@@ -17,7 +25,7 @@ h1 {
 }
 .navbar{
     background: linear-gradient(90deg, #004aad, #cb6ce6);
-    font-family: calibri; 
+    font-family: 'Horizon', 'sans-serif'; 
     padding-right: 15px;
     padding-left: 15px;
 }
@@ -29,7 +37,7 @@ h1 {
 }
 
 .logo a{
-    font-size: 35px; 
+    font-size: 25px; 
     font-weight: 600; 
     color: white;
 }
@@ -39,7 +47,7 @@ li{
 }
 li a{
     color: white; 
-    font-size: 18px; 
+    font-size: 14px; 
     font-weight: bold; 
     margin-right: 25px;
 }
