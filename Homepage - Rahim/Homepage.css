@@ -8,11 +8,7 @@
 
 body {
   font-family: 'Horizon', sans-serif;
-}
-
-
-body {
-    background: linear-gradient(90deg, #004aad, #cb6ce6);
+  background: linear-gradient(90deg, #004aad, #cb6ce6);
 }
 
 h1 {
@@ -96,6 +92,12 @@ button a{
     text-align: center;
 }
 
+#btn {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    color: white;
+    width: 150px;
+}
+
 .inner-flex-container {
     display: flex;
     flex-direction: row;
@@ -106,7 +108,9 @@ button a{
     padding: 20px;
 }
 
-#left-div1, #right-div2 {
-    height: 500px;
-    width: 300px;
+#left-div1 img, #right-div2 img {
+    max-height: 500px;
+    max-width: 500px;
+    display : block;
+    object-fit: cover;
 }
