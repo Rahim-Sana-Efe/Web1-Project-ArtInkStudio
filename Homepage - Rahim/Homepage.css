@@ -37,6 +37,8 @@ h1 {
     font-weight: 600; 
     color: white;
 }
+
+
 li{
     list-style: none; 
     display: inline-block;
@@ -96,6 +98,8 @@ button a{
     background: linear-gradient(90deg, #004aad, #cb6ce6);
     color: white;
     width: 150px;
+    font-family: 'Horizon', sans-serif;
+    border-radius: 1000px;
 }
 
 .inner-flex-container {
