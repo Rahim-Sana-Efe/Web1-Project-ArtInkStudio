@@ -1,6 +1,6 @@
 @font-face {
     font-family: Horizon;
-    src: url('/fonts/horizon.otf') format('opentype');
+    src: url('../fonts/horizon.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
@@ -100,6 +100,7 @@ button a{
     width: 150px;
     font-family: 'Horizon', sans-serif;
     border-radius: 1000px;
+    cursor: pointer;
 }
 
 .inner-flex-container {
@@ -111,10 +112,29 @@ button a{
     gap: 100px;
     padding: 20px;
 }
-
+#left-div1, #right-div2 {
+  
+    display : flex;
+   
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 #left-div1 img, #right-div2 img {
+    padding: 10px;
     max-height: 500px;
     max-width: 500px;
-    display : block;
+    
     object-fit: cover;
+   
+}
+
+#left-div1-btn {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    color: white;
+    width: 150px;
+    font-family: 'Horizon', sans-serif;
+    border-radius: 1000px;
+    cursor: pointer;
+   
 }
