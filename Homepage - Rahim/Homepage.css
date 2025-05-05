@@ -101,6 +101,7 @@ button a{
     font-family: 'Horizon', sans-serif;
     border-radius: 1000px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .inner-flex-container {
@@ -129,7 +130,7 @@ button a{
    
 }
 
-#left-div1-btn {
+#left-div1-btn, #right-div2-btn {
     background: linear-gradient(90deg, #004aad, #cb6ce6);
     color: white;
     width: 150px;
