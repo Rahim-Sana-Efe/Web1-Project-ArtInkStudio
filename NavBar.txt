@@ -2,8 +2,9 @@ HTML:
     <nav class="navbar">
 
 		<div class="navdiv">
-		
-            <div class="logo"><a href="#">ArtInk Studio</a> </div>
+            <div class="logo">
+                <a href="Homepage.html">ArtInk Studios</a>      
+            </div>
 		
             <ul>
 				<li><a href="/Homepage - Rahim/Homepage.html">Home</a></li>
@@ -12,11 +13,9 @@ HTML:
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Contact</a></li>
 			</ul>
-		
         </div>
 	
     </nav>
-	
 CSS:
 *{
     text-decoration: none;
@@ -39,6 +38,8 @@ CSS:
     font-weight: 600; 
     color: white;
 }
+
+
 li{
     list-style: none; 
     display: inline-block;
