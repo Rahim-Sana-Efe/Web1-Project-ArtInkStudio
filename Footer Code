@@ -1,0 +1,40 @@
+Html:
+
+    <footer class="FooterContainer">
+        <div class="SocialIcons">
+          <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://tiktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="mailto:your@email.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <div class="FooterText">
+          © 2025 ArtInk Studios. All rights reserved.
+        </div>
+      </footer>
+
+CSS:
+.FooterContainer {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .SocialIcons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 28px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .SocialIcons a:hover {
+    color: #004aad;
+    transform: scale(1.2);
+  }
+  
+  .FooterText {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'Horizon', 'sans-serif';
+  }
