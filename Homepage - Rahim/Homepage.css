@@ -135,7 +135,32 @@ button a{
     color: white;
     width: 150px;
     font-family: 'Horizon', sans-serif;
-    border-radius: 1000px;
-    
-   
+    border-radius: 1000px;   
 }
+
+.FooterContainer {
+    background: linear-gradient(90deg, #004aad, #cb6ce6);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .SocialIcons a {
+    color: white;
+    margin: 0 15px;
+    font-size: 28px;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .SocialIcons a:hover {
+    color: #004aad;
+    transform: scale(1.2);
+  }
+  
+  .FooterText {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+    font-family: 'Horizon', 'sans-serif';
+  }
+  
