@@ -103,6 +103,13 @@ button a{
     border-radius: 1000px;
     cursor: pointer;
     margin-bottom: 20px;
+    outline: 2px solid white;
+    border: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#btn:hover {
+    transform: scale(1.2);
 }
 
 .inner-flex-container {
@@ -113,6 +120,7 @@ button a{
     background: linear-gradient(90deg, #004aad, #cb6ce6);
     gap: 120px;
     padding: 20px;
+    border-radius: 40px;
 }
 #left-div1, #right-div2 {
     display : flex;
@@ -132,7 +140,9 @@ button a{
     color: white;
     width: 150px;
     font-family: 'Horizon', sans-serif;
-    border-radius: 1000px;   
+    border-radius: 1000px; 
+    outline: 2px solid white;
+    border: white;  
 }
 
 .FooterContainer {
